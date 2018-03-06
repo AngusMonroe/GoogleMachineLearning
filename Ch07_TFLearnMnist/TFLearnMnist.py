@@ -37,13 +37,15 @@ result = classifier.evaluate(test_data, test_labels)
 print(result["accuracy"])
 
 # here's one it gets right
-print("Predicted %d, Label: %d" % (classifier.predict(test_data[0]), test_labels[0]))
+prediction = classifier.predict(np.array([test_data[0]], dtype=float), as_iterable=False)
+print("Predicted %d, Label: %d" % (prediction, test_labels[0]))
 display(0)
 # and one it gets wrong
-print("Predicted %d, Label: %d" % (classifier.predict(test_data[8]), test_labels[8]))
+prediction = classifier.predict(np.array([test_data[8]], dtype=float), as_iterable=False)
+print("Predicted %d, Label: %d" % (prediction, test_labels[8]))
 display(8)
 
-weights = classifier.weights_
+weights = classifier.get_variable_value("linear//weight")
 f, axes = plt.subplots(2, 5, figsize=(10, 4))
 axes = axes.reshape(-1)
 for i in range(len(axes)):
