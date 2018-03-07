@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36e449d8-d5d1-4287-98fb-e9dee02af309" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch07_TFLearnMnist/TFLearnMnist.ipynb" afterPath="$PROJECT_DIR$/Ch07_TFLearnMnist/TFLearnMnist.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch07_TFLearnMnist/TFLearnMnist.py" afterPath="$PROJECT_DIR$/Ch07_TFLearnMnist/TFLearnMnist.py" />
-    </list>
+    <list default="true" id="36e449d8-d5d1-4287-98fb-e9dee02af309" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,14 +64,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TFLearnMnist.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TFLearnMnist.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ch07_TFLearnMnist/TFLearnMnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="45" selection-end-column="10" />
+            <state relative-caret-position="165">
+              <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DecisionTreeClassifierScratch.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ch08_DecisionTreeClassifierScratch/DecisionTreeClassifierScratch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="297" column="23" lean-forward="true" selection-start-line="297" selection-start-column="23" selection-end-line="297" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,6 +120,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>question</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -199,6 +206,11 @@
               <item name="GoogleMachineLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoogleMachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="Ch07_TFLearnMnist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoogleMachineLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoogleMachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Ch08_DecisionTreeClassifierScratch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -546,16 +558,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ch02_DecisionTree/DecisionTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ch06_TFforPoets/TFforPoets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1006,11 +1008,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch07_TFLearnMnist/TFLearnMnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="45" selection-end-column="10" />
+        <state relative-caret-position="165">
+          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch08_DecisionTreeClassifierScratch/DecisionTreeClassifierScratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="297" column="23" lean-forward="true" selection-start-line="297" selection-start-column="23" selection-end-line="297" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
