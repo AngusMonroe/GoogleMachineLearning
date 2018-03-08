@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="36e449d8-d5d1-4287-98fb-e9dee02af309" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch02_DecisionTree/DecisionTree.ipynb" afterPath="$PROJECT_DIR$/Ch02_DecisionTree/DecisionTree.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08_DecisionTreeClassifierScratch/DecisionTreeClassifierScratch.ipynb" afterPath="$PROJECT_DIR$/Ch08_DecisionTreeClassifierScratch/DecisionTreeClassifierScratch.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ch08_DecisionTreeClassifierScratch/DecisionTreeClassifierScratch.py" afterPath="$PROJECT_DIR$/Ch08_DecisionTreeClassifierScratch/DecisionTreeClassifierScratch.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,9 +82,11 @@
       <file leaf-file-name="DecisionTreeClassifierScratch.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ch08_DecisionTreeClassifierScratch/DecisionTreeClassifierScratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="116" column="37" lean-forward="false" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="181">
+              <caret line="421" column="0" lean-forward="true" selection-start-line="421" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
+              <folding>
+                <element signature="e#145#182#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +150,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="348" />
+    <option name="x" value="424" />
     <option name="y" value="23" />
     <option name="width" value="1016" />
     <option name="height" value="877" />
@@ -169,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -222,6 +222,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,7 +529,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="348" y="23" width="1016" height="877" extended-state="0" />
+    <frame x="424" y="23" width="1016" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18503937" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -560,14 +561,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Ch08_DecisionTreeClassifierScratch/DecisionTreeClassifierScratch.py</url>
-          <line>53</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1013,7 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,15 +1014,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="1598" column="0" lean-forward="false" selection-start-line="1598" selection-start-column="0" selection-end-line="1598" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ch08_DecisionTreeClassifierScratch/DecisionTreeClassifierScratch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="116" column="37" lean-forward="false" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="181">
+          <caret line="421" column="0" lean-forward="true" selection-start-line="421" selection-start-column="0" selection-end-line="421" selection-end-column="0" />
+          <folding>
+            <element signature="e#145#182#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

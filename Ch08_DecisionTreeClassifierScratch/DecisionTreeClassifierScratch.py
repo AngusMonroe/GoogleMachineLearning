@@ -5,6 +5,10 @@ We'll write a Decision Tree Classifier, in pure Python.
 
 # For Python 2 / 3 compatability
 from __future__ import print_function
+from graphviz import Digraph
+
+# create Digraph
+dot = Digraph(comment='Decision Tree Classifie')
 
 # Toy dataset.
 # Format: each row is an example.
@@ -331,20 +335,43 @@ def print_tree(node, spacing=""):
 
     # Base case: we've reached a leaf
     if isinstance(node, Leaf):
-        print (spacing + "Predict", node.predictions)
+        print(spacing + "Predict", node.predictions)
         return
 
     # Print the question at this node
-    print (spacing + str(node.question))
+    print(spacing + str(node.question))
 
     # Call this function recursively on the true branch
-    print (spacing + '--> True:')
+    print(spacing + '--> True:')
     print_tree(node.true_branch, spacing + "  ")
 
     # Call this function recursively on the false branch
-    print (spacing + '--> False:')
+    print(spacing + '--> False:')
     print_tree(node.false_branch, spacing + "  ")
 
+
+def data_visualization(node, num):
+    """data visualization function."""
+
+    # Base case: we've reached a leaf
+    if isinstance(node, Leaf):
+        dot.node(num, "Predict" + str(node.predictions))
+        return
+
+    if num == '#':
+        num += '#'
+
+    dot.node(num, str(node.question))
+
+    print(num)
+    dot.edge(num, num + '1', 'true')
+    data_visualization(node.true_branch, num + '1')
+
+    print(num)
+    dot.edge(num, num + '0', 'false')
+    data_visualization(node.false_branch, num + '0')
+
+    return
 
 def classify(row, node):
     """See the 'rules of recursion' above."""
@@ -396,6 +423,13 @@ if __name__ == '__main__':
     my_tree = build_tree(training_data)
 
     print_tree(my_tree)
+
+    dot.node('#', str(training_data))
+    dot.edge('#', '##')
+    data_visualization(my_tree, '#')
+
+    # print(dot.source)
+    dot.render('test-output/test-table.gv', view=True)
 
     # Evaluate
     testing_data = [

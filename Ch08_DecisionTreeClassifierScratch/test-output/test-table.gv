@@ -1,0 +1,14 @@
+// Decision Tree Classifie
+digraph {
+	"#" [label="[['Green', 3, 'Apple'], ['Yellow', 3, 'Apple'], ['Red', 1, 'Grape'], ['Red', 1, 'Grape'], ['Yellow', 3, 'Lemon']]"]
+	"#" -> "##"
+	"##" [label="Is diameter >= 3?"]
+	"##" -> "##1" [label=true]
+	"##1" [label="Is color == Yellow?"]
+	"##1" -> "##11" [label=true]
+	"##11" [label="Predict{'Apple': 1, 'Lemon': 1}"]
+	"##1" -> "##10" [label=false]
+	"##10" [label="Predict{'Apple': 1}"]
+	"##" -> "##0" [label=false]
+	"##0" [label="Predict{'Grape': 2}"]
+}
